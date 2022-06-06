@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BlogVlog</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="log">BlogVlog</div>
+            <div class="menu">
+                <ul>
+                    <li><a href="/index.html">Home</a></li>
+                    <li><a href="/login.html">Log In</a></li>
+
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <div class="container">
+        <form action="./homeBlog.html" id="form">
+            <h1>Registeration</h1>
+            <div class="input-control">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name">
+                <div class="error"></div>
+            </div>
+            <div class="input-control">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email">
+                <div class="error"></div>
+            </div>
+            <div class="input-control">
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password">
+                <div class="error"></div>
+            </div>
+            <div class="input-control">
+                <label for="password2">Re-enter Password</label>
+                <input type="password" id="password2" name="password2">
+                <div class="error"></div>
+            </div>
+            <input type="submit" class="button" value="Sign Up" />
+            <div class="loginlink">
+                <h3 style="text-align:center; margin-top:15px; "> Already Register?<a href="/login.html"
+                        class="loginlink" style="color: #007f67;">Log In</a></h3>
+            </div>
+        </form>
+    </div>
+
+    <script src="validation.js"></script>
+</body>
+
+</html>

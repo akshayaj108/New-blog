@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BlogVlog</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="log">BlogVlog</div>
+            <div class="menu">
+                <ul>
+                    <li><a href="/homeBlog.html">Home</a></li>
+                    <li><a href="/showBlog.html">Blog</a></li>
+                    <li><a href="/index.html" style="color:rgb(255, 47, 47);">Log out</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <form action="" id="form">
+        <h1>BlogVlog</h1>
+        <div class="input-control">
+            <label for="title">Title</label>
+            <input type="text" id="title" name="title" om>
+            <div class="error"></div>
+        </div>
+        <div class="input-control">
+            <label for="author">Author</label>
+            <input type="text" id="author" name="author">
+            <div class="error"></div>
+        </div>
+        <div class="input-control">
+            <label for="details">Details</label>
+            <textarea name="details" id="details" cols="30" rows="4"></textarea>
+            <div class="error"></div>
+        </div>
+        <div class="input-control">
+            <label for="uploadDate">Date</label>
+            <input type="date" id="uploadDate" name="uploadDate">
+            <div class="error"></div>
+        </div>
+        <div class="input-control">
+            <label for="image">Image</label>
+            <input type="file" id="image" name="image">
+        </div>
+        <button type="submit">Post Blog</button>
+    </form>
+    <script src="blog.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,207 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+body {
+  background: #ffffff;
+}
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: aliceblue;
+  width: 100%;
+  height: 50px;
+  background-color: rgb(255, 255, 255);
+  position: fixed;
+  top: 0;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+.log {
+  margin: auto 25px;
+}
+.log {
+  font-size: 1.5rem;
+  color: #009579;
+  text-decoration: none;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  cursor: pointer;
+}
+ul {
+  display: flex;
+  list-style: none;
+  align-items: center;
+  margin-right: 40px;
+}
+ul li {
+  margin: 15px 40px;
+}
+ul li a {
+  color: #005295;
+  text-decoration: none;
+  font-family: Impact, sans-serif;
+  cursor: pointer;
+}
+
+#form {
+  width: 300px;
+  margin: 20vh auto 0 auto;
+  padding: 20px;
+  background-color: whitesmoke;
+  border-radius: 15px;
+  font-size: 12px;
+  box-shadow: 2px 3px 4px black;
+}
+#form h1 {
+  text-align: center;
+  color: rgb(18, 18, 59);
+}
+#form .button {
+  padding: 10px;
+  margin-top: 10px;
+  width: 100%;
+  color: white;
+  background-color: #007f67;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.input-control {
+  display: flex;
+  flex-direction: column;
+}
+.input-control input {
+  border: 2px solid white;
+  border-radius: 4px;
+  display: block;
+  font-size: 12px;
+  padding: 10px;
+}
+.input-control input:focus {
+  outline: 0;
+}
+.input-control.success input {
+  border-color: rgb(37, 190, 37);
+}
+.input-control.error input {
+  border-color: rgb(255, 34, 34);
+  color: rgb(245, 28, 28);
+}
+.input-control .error {
+  color: rgb(255, 32, 32);
+}
+.signUp {
+  text-align: center;
+  margin-top: 10px;
+}
+.blog-container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.blog-container .blog-post {
+  width: 30%;
+  height: 350px;
+  background-color: whitesmoke;
+  border: 1px solid white;
+  margin: 10vh 20px 0 20px;
+  border-radius: 10px;
+  box-shadow: 2px 4px 4px black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#blog-form {
+  width: 400px;
+  margin: 10vh auto 0 auto;
+  padding: 20px;
+  background-color: whitesmoke;
+  border-radius: 15px;
+  font-size: 12px;
+  box-shadow: 2px 3px 4px black;
+}
+#blog-form h1 {
+  text-align: center;
+  color: rgb(18, 18, 59);
+}
+#blog-form button {
+  padding: 10px;
+  margin-top: 10px;
+  width: 100%;
+  color: white;
+  background-color: rgb(38, 38, 255);
+  border: none;
+  border-radius: 5px;
+}
+.container {
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(to right, purple, red);
+  display: flex;
+  flex-wrap: wrap;
+
+  align-items: center;
+}
+.blogPost {
+  width: 270px;
+  height: 320px;
+  background-color: rgb(219, 231, 255);
+  border-radius: 7px;
+}
+
+/* //forget Password */
+#formForget {
+  width: 300px;
+  margin: 20vh auto 0 auto;
+  padding: 20px;
+  background-color: whitesmoke;
+  border-radius: 15px;
+  font-size: 12px;
+  box-shadow: 2px 3px 4px black;
+}
+#formForget .button {
+  padding: 10px;
+  margin-top: 10px;
+  width: 100%;
+  color: white;
+  background-color: rgb(38, 38, 255);
+  border: none;
+  border-radius: 5px;
+}
+
+#formOtp {
+  width: 300px;
+  margin: 20vh auto 0 auto;
+  padding: 20px;
+  background-color: whitesmoke;
+  border-radius: 15px;
+  font-size: 12px;
+  box-shadow: 2px 3px 4px black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#formOtp .input-control input {
+  border: 2px solid white;
+  border-radius: 4px;
+  display: block;
+  font-size: 12px;
+  padding: 10px;
+}
+#formOtp .button {
+  padding: 10px;
+  margin-top: 10px;
+  width: 100%;
+  color: white;
+  background-color: rgb(38, 38, 255);
+  border: none;
+  border-radius: 5px;
+}
+#formOtp .button1 {
+  padding: 6px;
+  margin: 8px auto;
+  background-color: black;
+  color: white;
+}

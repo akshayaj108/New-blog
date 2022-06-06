@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BlogVlog</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+    <header>
+        <nav >
+            <div class="log">BlogVlog</div>
+            <div class="menu">
+                <ul>
+                    <li><a href="/index.html">Home</a></li>
+                    <li><a href="/login.html">Log In</a></li>
+                    <li><a href="">Blog</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    
+    <div class="container">
+        <form action="" id="formOtp" method="get" >
+            <h1 style="margin-bottom:10px;">Enter Generated OTP</h1>
+            <h3 style="margin-bottom:10px;">Click here to Generate OTP and It will send to Regiser Mobile No.</h3>
+           
+            
+            <div class="input-control">
+                <label style="text-align: center; font-weight:600" for="otp-input">Enter OTP</label>
+                <input type="number" id="otp" name="otp">
+                <div class="error"></div>
+                <button type="button" class="button" onclick="generateOTP()">Generate OTP</button>    
+            <button type="submit" class="button" >Submit OTP</button>
+            
+            <h3 style="text-align:center; margin-top:12px;"><a href="/login.html">Log In</a></h3>
+            
+        </form>
+    </div>
+
+    <script src="forgetPassword.js"></script>
+</body>
+</html>
